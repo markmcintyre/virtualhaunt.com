@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Virtual Haunted House 2001</TITLE>
+
+<script LANGUAGE="JavaScript">
+<!--
+var base = "../../images/";
+
+        if (document.images) {            
+            point_none = new Image();  point_none.src = base + "point_none.gif"; 
+            point_top  = new Image();  point_top.src = base  + "point_top.gif"; 
+            point_mid  = new Image();  point_mid.src = base  + "point_mid.gif"; 
+            point_bot  = new Image();  point_bot.src = base  + "point_bot.gif"; 
+        }
+
+    function changeImg(part) {
+            if (document.images) {
+                document["pointer"].src = eval("point_" + part + ".src");       
+            }
+    }
+
+// -->
+</script>
+
+</HEAD>
+<BODY BGCOLOR="#000000" TEXT="#FF8000" LINK="#FFB366" VLINK="#A65300" ALINK="#FF0000">
+
+<TABLE BORDER="0" WIDTH="550" CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD ROWSPAN="3" WIDTH="242"><img src="../../images/title.gif" width=242 height=92 alt="" border=0></TD>
+<TD ROWSPAN="3" WIDTH="92"><img src="../../images/point_none.gif" width=61 height=92 alt="" name="pointer" border=0></TD>
+<!-- NEXT ROOM -->
+<TD WIDTH="112"><A HREF="../room26/index.html" onMouseOver="changeImg('top'); window.status='Next Room'; return true" onMouseOut="changeImg('none'); window.status=''; return true"><img src="../../images/next_room.gif" width=112 height=27 alt="Click to visit next room" border=0></a></TD>
+<TD ROWSPAN="3" WIDTH="100%" VALIGN="top" ALIGN="right">
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0>
+<TR><TD ALIGN="right"><IMG SRC="../../images/mid.gif" WIDTH=13 HEIGHT=16 ALT="" BORDER="0"></TD><TD>
+<!-- MUSIC -->
+<EMBED SRC="../../sounds/music11.mid" CONTROLS="smallconsole" WIDTH="51" HEIGHT="15" VOLUME="100" AUTOSTART="true" LOOP="true">
+</TD></TR>
+<TR><TD ALIGN="right"><IMG SRC="../../images/wav.gif" WIDTH=16 HEIGHT=16 ALT="" BORDER="0"></TD><TD>
+<!-- SOUND EFFECT -->
+<EMBED SRC="../../sounds/01.wav" CONTROLS="smallconsole" WIDTH="51" HEIGHT="15" VOLUME="100" AUTOSTART="true" LOOP="false">
+</TD></TR>
+</TABLE> 
+</TD>
+</TR>
+<!-- PREVIOUS ROOM -->
+<TR><TD><A HREF="../room24/index.html" onMouseOver="changeImg('mid'); window.status='Previous Room'; return true" onMouseOut="changeImg('none'); window.status=''; return true"><img src="../../images/prev_room.gif" width=112 height=27 alt="Click to re-visit previous room" border=0></A></TD></TR>
+<TR><TD><A HREF="../../index.html" onMouseOver="changeImg('bot'); window.status='Home'; return true" onMouseOut="changeImg('none'); window.status=''; return true"><img src="../../images/home.gif" width=112 height=39 alt="Click to leave the mansion" border=0></A></TD></TR>
+</TABLE>
+
+<!-- TABLE GOES HERE -->
+<TABLE CELLSPACING = 0 CELLPADDING = 0 BORDER = 0>
+<TR>
+<TD><IMG SRC = "room000.jpg" WIDTH = 350 HEIGHT = 281></TD>
+<TD><IMG SRC = "room001.jpg" WIDTH = 92 HEIGHT = 281></TD>
+<TD><IMG SRC = "room002.jpg" WIDTH = 108 HEIGHT = 281></TD>
+</TR>
+<TR>
+<TD><IMG SRC = "room003.jpg" WIDTH = 350 HEIGHT = 91></TD>
+<TD><IMG SRC = "ani.gif" WIDTH = 92 HEIGHT = 91></TD>
+<TD><IMG SRC = "room005.jpg" WIDTH = 108 HEIGHT = 91></TD>
+</TR>
+<TR>
+<TD><IMG SRC = "room006.jpg" WIDTH = 350 HEIGHT = 39></TD>
+<TD><IMG SRC = "room007.jpg" WIDTH = 92 HEIGHT = 39></TD>
+<TD><IMG SRC = "room008.jpg" WIDTH = 108 HEIGHT = 39></TD>
+</TR>
+</TABLE>
+
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="550">
+<TR>
+<TD ALIGN="RIGHT">
+<!-- DESCRIPTION GOES HERE -->
+<b>Music Room</b> - <i>Diana</i>
+
+</TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>

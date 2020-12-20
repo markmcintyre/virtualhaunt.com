@@ -1,0 +1,37 @@
+body {
+	background-color: black;
+	color: #A8A8D5;
+} 
+
+a {
+ 	color: #D7D7EC;
+ 	background-color: transparent;
+ 	white-space: nowrap;
+}
+
+a.hover {
+	color: white;
+	background-color: transparent;
+}
+
+p {
+	font-family: tahoma, arial, sans-serif;
+	width: 600px;
+}
+
+p.intro {
+	font-family: tahoma, arial, sans-serif;
+	width: 100%;
+	text-align: justify;
+}
+
+h1 {
+	font-size: 1em;
+	font-weight: bold;
+	font-family: tahoma, arial, serif;
+} 
+
+cite {
+	font-family: tahoma, aria, sans-serif;
+	font-style: italic;
+}

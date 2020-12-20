@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Virtual Haunted House '98</TITLE>
+
+<script LANGUAGE="JavaScript">
+<!--
+var base = "";
+
+        if (document.images) {            
+            img1on = new Image();   img1on.src = base + "images/nextu.gif"; 
+            img1off = new Image();  img1off.src = base + "images/nextd.gif"; 
+            img2on = new Image();   img2on.src = base + "images/prevu.gif"; 
+            img2off = new Image();  img2off.src = base + "images/prevd.gif"; 
+            img3on = new Image();   img3on.src = base + "images/homeu.gif"; 
+            img3off = new Image();  img3off.src = base + "images/homed.gif";
+        }
+
+    function imgOn(imgName) {
+            if (document.images) {
+                document[imgName].src = eval(imgName + "on.src");       
+            }
+    }
+
+    function imgOff(imgName) {
+            if (document.images) {
+                document[imgName].src = eval(imgName + "off.src");        
+            }
+    }
+
+// -->
+</script>
+
+</HEAD>
+<BODY BGCOLOR="#000000" TEXT="#FF8000" LINK="#FFB366" VLINK="#A65300" ALINK="#FF0000">
+
+<TABLE BORDER="0" WIDTH="550" CELLPADDING="2" CELLSPACING="0">
+<TR>
+<TD WIDTH="300" ROWSPAN="2"><IMG SRC="images/title.gif" WIDTH=268 HEIGHT=71 ALT="[Virtual Haunted House '98]" BORDER="0"></TD>
+<TD ROWSPAN="2">
+	<TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+	<TR><TD>
+	<A HREF="08.html" onMouseOver="imgOn('img1'); window.status='Next Room';return true" onMouseOut="imgOff('img1'); window.status='';return true"><IMG SRC="images/nextd.gif" WIDTH=100 HEIGHT=16 ALT="[Next Room]" BORDER="0" NAME="img1"></A>
+	</TD></TR><TR><TD>
+	<A HREF="07.html" onMouseOver="imgOn('img2'); window.status='Previous Room';return true" onMouseOut="imgOff('img2'); window.status='';return true"><IMG SRC="images/prevd.gif" WIDTH=132 HEIGHT=16 ALT="[Prev Room]" BORDER="0" NAME="img2"></A>
+	</TD></TR><TR><TD>
+	<A HREF="index.html" onMouseOver="imgOn('img3'); window.status='Back to Main Page';return true" onMouseOut="imgOff('img3'); window.status='';return true"><IMG SRC="images/homed.gif" WIDTH=46 HEIGHT=15 ALT="[Home]" BORDER="0" NAME="img3"></A>
+	</TD></TR>
+	</TABLE>
+</TD>
+<TD WIDTH="150" ALIGN="RIGHT">
+<IMG SRC="images/mid.gif" WIDTH=13 HEIGHT=16 ALT="" BORDER="0">
+<EMBED SRC="sounds/hm.mid" CONTROLS="smallconsole" WIDTH="51" HEIGHT="15" VOLUME="100" AUTOSTART="true" LOOP="true">
+</TD></TR><TR><TD WIDTH="150" ALIGN="RIGHT">
+<IMG SRC="images/wav.gif" WIDTH=16 HEIGHT=16 ALT="" BORDER="0">
+<EMBED SRC="sounds/05.wav" CONTROLS="smallconsole" WIDTH="51" HEIGHT="15" VOLUME="100" AUTOSTART="true" LOOP="false">
+</TD></TR>
+</TABLE>
+
+<TABLE WIDTH=550 BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD ROWSPAN=2><IMG SRC="rooms/141.jpg" WIDTH=381 HEIGHT=422 BORDER="0"></TD>
+<TD><IMG SRC="rooms/142.jpg" WIDTH=169 HEIGHT=312 BORDER="0"></TD>
+</TR>
+<TR>
+<TD><IMG SRC="rooms/14ani.gif" WIDTH=169 HEIGHT=110 BORDER="0"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH=550 BORDER=0>
+<TR><TD>
+<CENTER>
+<PRE>The Front Door - Andrea</PRE>
+</CENTER>
+
+Witches fly on broom sticks<BR>
+Up in the air<BR>
+Flying around town<BR>
+To scare lives out of living people<BR>
+<BR>
+Witches are ugly and hairy<BR>
+With pointy hats<BR>
+And warts that are fat<BR>
+<BR>
+Witches, witches, witches!
+<BR>
+</TD></TR>
+
+</TABLE>
+
+</BODY>
+</HTML>

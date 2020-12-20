@@ -1,0 +1,40 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+table {
+	margin-bottom: 1em;
+}
+
+h1 {
+	color: silver;
+   background-color: transparent;
+	font-size: 1.2em;
+   font-weight: bold;
+   font-family: georgia, serif;
+}
+
+p {
+	color: silver;
+   background-color: transparent;
+   font-family: georgia, serif;
+   font-size: 1.2em;
+   width: 625px;
+}   
+
+p.intro {
+	width: auto;
+}
+
+a {
+ 	color: white;
+}
+
+cite {
+	color: white;
+   background-color: transparent;
+   font-family: georgia, serif;
+   font-size: 1.2em;
+   font-style: italic;
+}
